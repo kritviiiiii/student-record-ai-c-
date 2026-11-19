@@ -1,0 +1,385 @@
+=================================================================
+   AI-ASSISTED STUDENT RECORD AND RESULT MANAGEMENT SYSTEM
+             UPES Dehradun - B.Tech CSE (PRC1001)
+=================================================================
+System initialized with 5 student records.
+
+------------------------- MAIN MENU -------------------------
+1. Add Student Details
+2. Search and Display a Student Record
+3. Calculate CGPA of Each Student
+4. Calculate Average CGPA of Students by Year
+5. Display Records of All Students
+6. Delete an Individual Student Record
+7. Display All Records in Increasing Order of SAP ID
+8. Display All Records in Increasing Order of Name
+9. AI-Assisted Academic Advisor
+0. Exit
+-------------------------------------------------------------
+Enter your choice: 
+================ ALL STUDENT RECORDS (Total: 5) ================
+
+[Record #1]
+SAP ID    : 590035544
+Roll No.  : R214226025
+Name      : Kritvi
+Phone No. : 9876501234
+Email ID  : kritvi1308@gmail.com
+Year      : 1
+Semester  : 1
+SGPA (1-8): S1:9.20 S2:NA S3:NA S4:NA S5:NA S6:NA S7:NA S8:NA 
+CGPA      : 9.20
+
+[Record #2]
+SAP ID    : 50010202
+Roll No.  : R214225002
+Name      : Aarav Sharma
+Phone No. : 9812345670
+Email ID  : aarav.sharma@stu.upes.ac.in
+Year      : 2
+Semester  : 3
+SGPA (1-8): S1:7.80 S2:8.10 S3:8.25 S4:NA S5:NA S6:NA S7:NA S8:NA 
+CGPA      : 8.05
+
+[Record #3]
+SAP ID    : 50010208
+Roll No.  : R214224008
+Name      : Riya Patel
+Phone No. : 9765432109
+Email ID  : riya.patel@stu.upes.ac.in
+Year      : 3
+Semester  : 5
+SGPA (1-8): S1:6.40 S2:6.10 S3:5.80 S4:6.30 S5:6.15 S6:NA S7:NA S8:NA 
+CGPA      : 6.15
+
+[Record #4]
+SAP ID    : 50010201
+Roll No.  : R214225001
+Name      : Kabir Mehra
+Phone No. : 9654321098
+Email ID  : kabir.mehra@stu.upes.ac.in
+Year      : 2
+Semester  : 4
+SGPA (1-8): S1:5.20 S2:4.80 S3:5.00 S4:4.90 S5:NA S6:NA S7:NA S8:NA 
+CGPA      : 4.97
+
+[Record #5]
+SAP ID    : 50010204
+Roll No.  : R214223004
+Name      : Ananya Joshi
+Phone No. : 9543210987
+Email ID  : ananya.joshi@stu.upes.ac.in
+Year      : 4
+Semester  : 7
+SGPA (1-8): S1:8.60 S2:8.80 S3:9.10 S4:8.70 S5:8.90 S6:9.20 S7:9.00 S8:NA 
+CGPA      : 8.90
+=================================================================
+
+------------------------- MAIN MENU -------------------------
+1. Add Student Details
+2. Search and Display a Student Record
+3. Calculate CGPA of Each Student
+4. Calculate Average CGPA of Students by Year
+5. Display Records of All Students
+6. Delete an Individual Student Record
+7. Display All Records in Increasing Order of SAP ID
+8. Display All Records in Increasing Order of Name
+9. AI-Assisted Academic Advisor
+0. Exit
+-------------------------------------------------------------
+Enter your choice: 
+--- CGPA Calculation for All Students ---
+SAP ID       Name                   Year   Sem    CGPA    
+------------------------------------------------------------
+590035544    Kritvi                 1      1      9.20    
+50010202     Aarav Sharma           2      3      8.05    
+50010208     Riya Patel             3      5      6.15    
+50010201     Kabir Mehra            2      4      4.97    
+50010204     Ananya Joshi           4      7      8.90    
+
+------------------------- MAIN MENU -------------------------
+1. Add Student Details
+2. Search and Display a Student Record
+3. Calculate CGPA of Each Student
+4. Calculate Average CGPA of Students by Year
+5. Display Records of All Students
+6. Delete an Individual Student Record
+7. Display All Records in Increasing Order of SAP ID
+8. Display All Records in Increasing Order of Name
+9. AI-Assisted Academic Advisor
+0. Exit
+-------------------------------------------------------------
+Enter your choice: 
+--- Year-wise Average CGPA Report ---
+Year 1 : 1 student(s) | Average CGPA = 9.20
+Year 2 : 2 student(s) | Average CGPA = 6.51
+Year 3 : 1 student(s) | Average CGPA = 6.15
+Year 4 : 1 student(s) | Average CGPA = 8.90
+
+------------------------- MAIN MENU -------------------------
+1. Add Student Details
+2. Search and Display a Student Record
+3. Calculate CGPA of Each Student
+4. Calculate Average CGPA of Students by Year
+5. Display Records of All Students
+6. Delete an Individual Student Record
+7. Display All Records in Increasing Order of SAP ID
+8. Display All Records in Increasing Order of Name
+9. AI-Assisted Academic Advisor
+0. Exit
+-------------------------------------------------------------
+Enter your choice: 
+--- Student Records in Increasing Order of SAP ID ---
+SAP ID       Roll No.       Name                   Year   Sem    CGPA    
+------------------------------------------------------------------------
+50010201     R214225001     Kabir Mehra            2      4      4.97    
+50010202     R214225002     Aarav Sharma           2      3      8.05    
+50010204     R214223004     Ananya Joshi           4      7      8.90    
+50010208     R214224008     Riya Patel             3      5      6.15    
+590035544    R214226025     Kritvi                 1      1      9.20    
+
+------------------------- MAIN MENU -------------------------
+1. Add Student Details
+2. Search and Display a Student Record
+3. Calculate CGPA of Each Student
+4. Calculate Average CGPA of Students by Year
+5. Display Records of All Students
+6. Delete an Individual Student Record
+7. Display All Records in Increasing Order of SAP ID
+8. Display All Records in Increasing Order of Name
+9. AI-Assisted Academic Advisor
+0. Exit
+-------------------------------------------------------------
+Enter your choice: 
+--- Student Records in Increasing Order of Name ---
+Name                   SAP ID       Roll No.       Year   Sem    CGPA    
+------------------------------------------------------------------------
+Aarav Sharma           50010202     R214225002     2      3      8.05    
+Ananya Joshi           50010204     R214223004     4      7      8.90    
+Kabir Mehra            50010201     R214225001     2      4      4.97    
+Kritvi                 590035544    R214226025     1      1      9.20    
+Riya Patel             50010208     R214224008     3      5      6.15    
+
+------------------------- MAIN MENU -------------------------
+1. Add Student Details
+2. Search and Display a Student Record
+3. Calculate CGPA of Each Student
+4. Calculate Average CGPA of Students by Year
+5. Display Records of All Students
+6. Delete an Individual Student Record
+7. Display All Records in Increasing Order of SAP ID
+8. Display All Records in Increasing Order of Name
+9. AI-Assisted Academic Advisor
+0. Exit
+-------------------------------------------------------------
+Enter your choice: 
+Enter SAP ID to search: 
+--- Student Record Found ---
+SAP ID    : 590035544
+Roll No.  : R214226025
+Name      : Kritvi
+Phone No. : 9876501234
+Email ID  : kritvi1308@gmail.com
+Year      : 1
+Semester  : 1
+SGPA (1-8): S1:9.20 S2:NA S3:NA S4:NA S5:NA S6:NA S7:NA S8:NA 
+CGPA      : 9.20
+
+------------------------- MAIN MENU -------------------------
+1. Add Student Details
+2. Search and Display a Student Record
+3. Calculate CGPA of Each Student
+4. Calculate Average CGPA of Students by Year
+5. Display Records of All Students
+6. Delete an Individual Student Record
+7. Display All Records in Increasing Order of SAP ID
+8. Display All Records in Increasing Order of Name
+9. AI-Assisted Academic Advisor
+0. Exit
+-------------------------------------------------------------
+Enter your choice: 
+--- AI-Assisted Academic Advisor ---
+1. Get Academic Advice for a Specific Student (by SAP ID)
+2. Generate Academic Advice Report for All Students
+Enter choice (1 or 2): 
+------------------------------------------------------------
+Student : Kritvi (SAP ID: 590035544 | Year: 1 | CGPA: 9.20)
+Category: Excellent Performance
+Advice  : Excellent performance - maintain your current study pattern
+          and explore competitive coding, internships, or mini-projects.
+Note    : Lowest recorded SGPA is 9.20 in Semester 1.
+
+------------------------------------------------------------
+Student : Aarav Sharma (SAP ID: 50010202 | Year: 2 | CGPA: 8.05)
+Category: Good Performance
+Advice  : Good performance - stay consistent with lecture notes and
+          revise core subjects to push your CGPA above 8.5.
+Note    : Lowest recorded SGPA is 7.80 in Semester 1.
+
+------------------------------------------------------------
+Student : Riya Patel (SAP ID: 50010208 | Year: 3 | CGPA: 6.15)
+Category: Needs Improvement
+Advice  : Needs improvement - focus more on subjects with lower SGPA
+          and solve extra practice problems before mid-sem/end-sem exams.
+Note    : Lowest recorded SGPA is 5.80 in Semester 3.
+
+------------------------------------------------------------
+Student : Kabir Mehra (SAP ID: 50010201 | Year: 2 | CGPA: 4.97)
+Category: Requires Immediate Attention
+Advice  : Requires immediate attention - meet your faculty advisor,
+          attend remedial doubt sessions, and clear core fundamentals.
+Note    : Lowest recorded SGPA is 4.80 in Semester 2.
+
+------------------------------------------------------------
+Student : Ananya Joshi (SAP ID: 50010204 | Year: 4 | CGPA: 8.90)
+Category: Excellent Performance
+Advice  : Excellent performance - maintain your current study pattern
+          and explore competitive coding, internships, or mini-projects.
+Note    : Lowest recorded SGPA is 8.60 in Semester 1.
+------------------------------------------------------------
+
+------------------------- MAIN MENU -------------------------
+1. Add Student Details
+2. Search and Display a Student Record
+3. Calculate CGPA of Each Student
+4. Calculate Average CGPA of Students by Year
+5. Display Records of All Students
+6. Delete an Individual Student Record
+7. Display All Records in Increasing Order of SAP ID
+8. Display All Records in Increasing Order of Name
+9. AI-Assisted Academic Advisor
+0. Exit
+-------------------------------------------------------------
+Enter your choice: 
+--- Add New Student Record ---
+Enter SAP ID: Enter Roll No.: Enter Full Name: Enter Phone No.: Enter Email ID: Enter Year (1 to 4): Enter Current Semester (1 to 8): Enter SGPA for all 8 semesters (enter 0 for upcoming semesters):
+  Semester 1 SGPA:   Semester 2 SGPA:   Semester 3 SGPA:   Semester 4 SGPA:   Semester 5 SGPA:   Semester 6 SGPA:   Semester 7 SGPA:   Semester 8 SGPA: 
+[Success] Student 'Diya Sengupta' (SAP ID: 50010210) added successfully with CGPA: 8.70
+
+------------------------- MAIN MENU -------------------------
+1. Add Student Details
+2. Search and Display a Student Record
+3. Calculate CGPA of Each Student
+4. Calculate Average CGPA of Students by Year
+5. Display Records of All Students
+6. Delete an Individual Student Record
+7. Display All Records in Increasing Order of SAP ID
+8. Display All Records in Increasing Order of Name
+9. AI-Assisted Academic Advisor
+0. Exit
+-------------------------------------------------------------
+Enter your choice: 
+--- AI-Assisted Academic Advisor ---
+1. Get Academic Advice for a Specific Student (by SAP ID)
+2. Generate Academic Advice Report for All Students
+Enter choice (1 or 2): Enter SAP ID: 
+------------------------------------------------------------
+Student : Diya Sengupta (SAP ID: 50010210 | Year: 1 | CGPA: 8.70)
+Category: Excellent Performance
+Advice  : Excellent performance - maintain your current study pattern
+          and explore competitive coding, internships, or mini-projects.
+Note    : Lowest recorded SGPA is 8.60 in Semester 2.
+------------------------------------------------------------
+
+------------------------- MAIN MENU -------------------------
+1. Add Student Details
+2. Search and Display a Student Record
+3. Calculate CGPA of Each Student
+4. Calculate Average CGPA of Students by Year
+5. Display Records of All Students
+6. Delete an Individual Student Record
+7. Display All Records in Increasing Order of SAP ID
+8. Display All Records in Increasing Order of Name
+9. AI-Assisted Academic Advisor
+0. Exit
+-------------------------------------------------------------
+Enter your choice: 
+Enter SAP ID of the student to delete: 
+Deleting record of 'Kabir Mehra' (SAP ID: 50010201)...
+[Success] Record deleted. Total students remaining: 5
+
+------------------------- MAIN MENU -------------------------
+1. Add Student Details
+2. Search and Display a Student Record
+3. Calculate CGPA of Each Student
+4. Calculate Average CGPA of Students by Year
+5. Display Records of All Students
+6. Delete an Individual Student Record
+7. Display All Records in Increasing Order of SAP ID
+8. Display All Records in Increasing Order of Name
+9. AI-Assisted Academic Advisor
+0. Exit
+-------------------------------------------------------------
+Enter your choice: 
+================ ALL STUDENT RECORDS (Total: 5) ================
+
+[Record #1]
+SAP ID    : 590035544
+Roll No.  : R214226025
+Name      : Kritvi
+Phone No. : 9876501234
+Email ID  : kritvi1308@gmail.com
+Year      : 1
+Semester  : 1
+SGPA (1-8): S1:9.20 S2:NA S3:NA S4:NA S5:NA S6:NA S7:NA S8:NA 
+CGPA      : 9.20
+
+[Record #2]
+SAP ID    : 50010202
+Roll No.  : R214225002
+Name      : Aarav Sharma
+Phone No. : 9812345670
+Email ID  : aarav.sharma@stu.upes.ac.in
+Year      : 2
+Semester  : 3
+SGPA (1-8): S1:7.80 S2:8.10 S3:8.25 S4:NA S5:NA S6:NA S7:NA S8:NA 
+CGPA      : 8.05
+
+[Record #3]
+SAP ID    : 50010208
+Roll No.  : R214224008
+Name      : Riya Patel
+Phone No. : 9765432109
+Email ID  : riya.patel@stu.upes.ac.in
+Year      : 3
+Semester  : 5
+SGPA (1-8): S1:6.40 S2:6.10 S3:5.80 S4:6.30 S5:6.15 S6:NA S7:NA S8:NA 
+CGPA      : 6.15
+
+[Record #4]
+SAP ID    : 50010204
+Roll No.  : R214223004
+Name      : Ananya Joshi
+Phone No. : 9543210987
+Email ID  : ananya.joshi@stu.upes.ac.in
+Year      : 4
+Semester  : 7
+SGPA (1-8): S1:8.60 S2:8.80 S3:9.10 S4:8.70 S5:8.90 S6:9.20 S7:9.00 S8:NA 
+CGPA      : 8.90
+
+[Record #5]
+SAP ID    : 50010210
+Roll No.  : R214226010
+Name      : Diya Sengupta
+Phone No. : 9123456780
+Email ID  : diya.sengupta@stu.upes.ac.in
+Year      : 1
+Semester  : 2
+SGPA (1-8): S1:8.80 S2:8.60 S3:NA S4:NA S5:NA S6:NA S7:NA S8:NA 
+CGPA      : 8.70
+=================================================================
+
+------------------------- MAIN MENU -------------------------
+1. Add Student Details
+2. Search and Display a Student Record
+3. Calculate CGPA of Each Student
+4. Calculate Average CGPA of Students by Year
+5. Display Records of All Students
+6. Delete an Individual Student Record
+7. Display All Records in Increasing Order of SAP ID
+8. Display All Records in Increasing Order of Name
+9. AI-Assisted Academic Advisor
+0. Exit
+-------------------------------------------------------------
+Enter your choice: 
+Exiting program. Thank you!
