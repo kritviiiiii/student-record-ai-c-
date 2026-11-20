@@ -4,7 +4,7 @@
  * Course Name   : Programming in C (PRC1001)
  * Program       : B.Tech Computer Science and Engineering (Semester I)
  * Institution   : University of Petroleum and Energy Studies (UPES), Dehradun
- * Student Name  : Kritvi
+ * Student Name  : Kritvi Goyal
  * SAP ID        : 590035544
  * Due Date      : 20 November 2026
  *
@@ -29,9 +29,9 @@ struct Student {
     char name[50];
     char phone[15];
     char email[50];
-    int year;                    /* 1, 2, 3, or 4 */
-    int semester;                /* 1 to 8 */
-    float sgpa[TOTAL_SEMESTERS]; /* SGPA for all 8 semesters (0.0 if upcoming) */
+    int year;                   
+    int semester;                
+    float sgpa[TOTAL_SEMESTERS]; 
     float cgpa;
 };
 
